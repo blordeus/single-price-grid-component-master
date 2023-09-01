@@ -37,7 +37,7 @@
   }
 
   .top-section p {
-    color: var(--Grayish-Blue);
+    color: var(--Light-Gray);
   }
 
   .middle-section {
@@ -74,6 +74,7 @@
     border: none;
     border-radius: 5px;
     padding: 15px 20px;
+    cursor: pointer;
     font-weight: 500;
     font-family: 'Karla', sans-serif;
     font-size: 16px;
@@ -81,10 +82,7 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
   }
 
-  button:hover {
-    background-color: var(--Grayish-Blue);
-    cursor: pointer;
-  }
+  button:hover
 
  li {
     list-style-type: none;
