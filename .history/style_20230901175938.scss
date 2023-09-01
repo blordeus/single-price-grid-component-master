@@ -110,21 +110,21 @@
 
   @media (min-width: 768px)
 .my-md-4 {
-     margin-top: 1.5rem!important; 
-     margin-bottom: 1.5rem!important; 
+    /* margin-top: 1.5rem!important; */
+    /* margin-bottom: 1.5rem!important; */
 }
 .py-5 {
-     padding-top: 3rem!important; 
-     padding-bottom: 3rem!important; 
+    /* padding-top: 3rem!important; */
+    /* padding-bottom: 3rem!important; */
 }
 .px-5 {
-     padding-right: 3rem!important; 
-     padding-left: 3rem!important; 
+    /* padding-right: 3rem!important; */
+    /* padding-left: 3rem!important; */
 }
 /* This was your media query at 1200px and switched to 1024px and changed the max-width  to be smaller. This makes your component look similar to the design image */
 @media (min-width: 1024px)
 .container, .container-lg, .container-md, .container-sm, .container-xl {
-     max-width: 800px; 
+    /* max-width: 800px; 
 }
 @media (min-width: 992px)
 .container, .container-lg, .container-md, .container-sm {
