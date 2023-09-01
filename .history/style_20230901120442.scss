@@ -1,0 +1,39 @@
+  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Open+Sans&display=swap');
+
+  :root{
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+    --body-bg: #E6EFF5;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+  }
+
+  .body-bg {
+    background-color: var(--body-bg);
+  }
+
+  .top-section {
+    background-color: white;
+  }
+
+  .top-section h1 {
+    color: var(--Cyan)
+  }
+
+  .top-section h2 {
+    color: var(--Bright-Yellow)
+  }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
