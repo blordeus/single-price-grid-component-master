@@ -87,6 +87,20 @@ li {
   opacity: 0.8;
 }
 
+@media (min-width: 768px) {
+  .borders-bottom-right {
+    border-bottom-right-radius: 6px;
+  }
+  .borders-bottom-left {
+    border-bottom-left-radius: 6px;
+  }
+}
+@media (max-width: 767px) {
+  .borders-bottom-small {
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
